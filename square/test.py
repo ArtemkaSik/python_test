@@ -19,6 +19,6 @@ class TestTimeService(unittest.TestCase):
         self.assertIsInstance(result, datetime)
 
 
-#unittest.main()  # Запуск тестов. Если запускать через python test.py -v
-# Запустить тесты можно иначе, обратившись к модулю unittest в терминале: python -m unittest <название файла> (если его не будет, то выполнятся все тести в дериктории)
-# python -m unittest -f до первого упавшего теста
+#unittest.main()  # Запуск тестов. Если запускать через python3 test.py -v
+# Запустить тесты можно иначе, обратившись к модулю unittest в терминале: python3 -m unittest <название файла> (если его не будет, то выполнятся все тести в дериктории)
+# python3 -m unittest -f до первого упавшего теста
